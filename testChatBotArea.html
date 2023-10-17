@@ -21,37 +21,6 @@
         })(document, 'script');
       </script>
 
-      <!-- <label for="Speech Recognition">Speech Recognition</label>
-      <input type="text" name="" id="speechToText" placeholder="speack something" onclick=record()>
-
-      <script>
-        function record(){
-          var recognition = new webkitSpeechRecognition();
-          recognition.lang = "en-GB";
-
-          recognition.onresult = function(event) {
-            console.log(event);
-            document.getElementById('speechToText').value = event.results[0][0].transcript;
-          }
-           recognition.start();
-        }
-      </script> -->
-
-      <!-- <div id="variableValue"></div>
-
-      <script>
-          // Make an HTTP request to the Voiceflow webhook/API endpoint
-          fetch('https://your-voiceflow-webhook-url.com')
-              .then(response => response.json())
-              .then(data => {
-                  // Process the data received from Voiceflow
-                  document.getElementById('variableValue').textContent = data.variableName;
-              })
-              .catch(error => {
-                  console.error('Error fetching data:', error);
-              });
-      </script> -->
-
       <div class="hero">
         <h1>Text To Speech <span>Converter</span></h1>
         <textarea placeholder="Write anyting here"></textarea>
