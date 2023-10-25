@@ -8,19 +8,19 @@
 </head>
 <body>
     <script type="text/javascript">
-        (function(d, t) {
-            var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
-            v.onload = function() {
-              window.voiceflow.chat.load({
-                verify: { projectID: '65374f08ac56110006111a44' },
-                url: 'https://general-runtime.voiceflow.com',
-                versionID: 'production'
-              }) .then(() => {
-                window.voiceflow.chat.open()
-              });
-            }
-            v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
-        })(document, 'script');
+      (function(d, t) {
+        var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+        v.onload = function() {
+          window.voiceflow.chat.load({
+            verify: { projectID: '65374f08ac56110006111a44' },
+            url: 'https://general-runtime.voiceflow.com',
+            versionID: 'production'
+          }) .then(() => {
+            window.voiceflow.chat.open()
+          });
+        }
+        v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+      })(document, 'script');
       </script>
 
       <div class="hero">
@@ -28,10 +28,10 @@
         <textarea placeholder="Write anyting here"></textarea>
         <div class="row">
           <select></select>
-          <button><img src="play_26px.png">Listen</button>
+          <button><img src="newwww/images/play_26px.png">Listen</button>
         </div>
       </div>
-
+      <script src="test.js"></script>
       <script src="index.js"></script>
   </body>
 </html>
